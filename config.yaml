@@ -1,0 +1,11 @@
+baseURL: /
+languageCode: "en-us"
+defaultContentLanguage: en
+languages:
+    en:
+        lang: en
+        languageName: English
+        weight: 1
+title: "Vindecode"
+MetadataFormat: "yaml"
+theme: "vindecodex"
