@@ -1,7 +1,6 @@
-$PUBLIC=public/*
-clean-docs:
-	rm -r docs/*
-copy-public:
-	cp $PUBLIC > docs/
+$PUBLIC=public
+$DOCS=docs
+build-docs:
+	mv $PUBLIC $DOCS
 all:
-	make clean-docs && make copy-public;
+	make build-docs;
