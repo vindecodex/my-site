@@ -6,4 +6,6 @@ clean-docs:
 copy-public:
 	cp $PUBLIC > ./docs
 all:
-	make clean-docs;make create-docs; make copy-public
+	make clean-docs \
+		make create-docs \ 
+	make copy-public;
