@@ -1,6 +1,6 @@
 $PUBLIC="./public/*"
 clean-docs:
-	rm -rf -p "./docs/*"
+	rm -r "./docs/*"
 copy-public:
 	cp $PUBLIC > ./docs
 all:
