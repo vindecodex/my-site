@@ -1,5 +1,12 @@
 {{ partial "header.html" . }}
-	{{ range first 10 .Data.Pages }}
-		<a href="{{ .Permalink }}">{{ .Title }}</a>
-	{{ end }}
+<div class="home">
+	<div class="logo">
+		<figure>
+			<img src="{{ .Site.BaseURL }}/gopher.png" alt="gopherize" />
+		</figure>
+	</div>
+	<div class="header">
+		<h1>Vindecode</h1>
+	</div>
+</div>
 {{ partial "footer.html" . }}
