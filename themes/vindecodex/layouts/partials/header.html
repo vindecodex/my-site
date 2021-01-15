@@ -2,15 +2,20 @@
 <html>
 	<head>
 		<title>{{ .Title }}</title>
-		<link rel="stylesheet" href="./css/main.css">
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/main.css">
 	</head>
 <body>
 	<header>
 		<nav>
+			{{ $PageTitle := .Page.Title }}
+			{{ $SectionName := .Page.Section }}
+			{{ $Blogs := "blog" }}
 			<ul>
-				<li>
-					<a href="/">/Home</a>
-					<a href="/about">/About</a>
-				</li>
+				<li><a class="{{ if eq $PageTitle "Vindecode" }} active {{ end }}" href="/">/Home</a></li>
+				<li><a class="{{ if eq $PageTitle "About" }} active {{ end }}" href="/about">/About</a></li>
+				<li><a class="{{ if or (eq $PageTitle $Blogs) (eq $SectionName $Blogs) }} active {{ end }}" href="/blog">/Blog</a></li>
 		</nav>
 	</header>
+
+	<div class="root">
+		<div class="content">
