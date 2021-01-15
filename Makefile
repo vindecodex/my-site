@@ -1,6 +1,4 @@
-$PUBLIC=public
-$DOCS=docs
 build-docs:
-	mv $PUBLIC $DOCS
+	mv public docs
 all:
 	make build-docs;
