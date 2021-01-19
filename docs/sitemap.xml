@@ -3,35 +3,35 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/about/</loc>
+    <loc>./about/</loc>
   </url>
   
   <url>
-    <loc>/blog/</loc>
+    <loc>./blog/</loc>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>./categories/</loc>
   </url>
   
   <url>
-    <loc>/categories/hugo/</loc>
+    <loc>./categories/hugo/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>./tags/</loc>
   </url>
   
   <url>
-    <loc>/tags/test/</loc>
+    <loc>./tags/test/</loc>
   </url>
   
   <url>
-    <loc>/blog/test/</loc>
+    <loc>./blog/test/</loc>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>./</loc>
   </url>
   
 </urlset>
