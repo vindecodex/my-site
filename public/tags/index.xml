@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on Vindecode</title>
-    <link>./categories/hugo/</link>
-    <description>Recent content in Hugo on Vindecode</description>
+    <title>Tags on Vindecode</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Vindecode</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="./categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>test</title>
-      <link>./blog/test/</link>
+      <link>/tags/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>./blog/test/</guid>
+      <guid>/tags/test/</guid>
       <description></description>
     </item>
     
