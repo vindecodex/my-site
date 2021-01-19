@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>{{ .Title }}</title>
+		<title>
+			{{if eq .Title .Site.Title }} {{ .Title }}
+			{{ else if .Page.Section }} {{ .Page.Section }} | {{ .Site.Title }}
+			{{ else }}
+			{{ .Title }} | {{ .Site.Title }}
+			{{ end }}
+		</title>
 		{{ $B := .Site.BaseURL }}
 		<link rel="stylesheet" href="{{ $B }}/css/main.css">
 	</head>
