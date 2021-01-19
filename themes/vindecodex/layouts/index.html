@@ -1,8 +1,9 @@
 {{ partial "header.html" . }}
+{{ $B := .Site.BaseURL }}
 <div class="home">
 	<div class="logo">
 		<figure>
-			<img src='{{ "gopher.png" | absURL }}' alt="gopherize" />
+			<img src="{{ $B }}gopher.png" alt="gopherize" />
 		</figure>
 	</div>
 	<div class="header">
